@@ -1,0 +1,123 @@
+main {
+  position: relative;
+  width: 1290px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+/* 타이틀 영역 */
+.title {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #323232;
+}
+.title h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 100%;
+  color: #fff;
+  text-align: center;
+}
+.title p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 100%;
+  color: #ababab;
+  text-align: center;
+}
+
+/* 메인 이미지 영역 */
+.image-1 {
+  position: relative;
+  width: 100%;
+}
+.image-1 img {
+}
+
+/* service 영역 */
+.service {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+.service-inner {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  padding: 45px;
+  background-color: #b9b9b9;
+}
+.service-inner h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 100%;
+  color: #000;
+}
+.service-inner p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 125%;
+  color: #484848;
+}
+
+/* portfoilo 영역 */
+.portfolio {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding: 50px 0px;
+}
+.thumb-1 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: url("/images/thumb-1.png") center no-repeat;
+}
+.thumb-2 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: url("/images/thumb-2.png") center no-repeat;
+}
+.thumb-3 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: url("/images/thumb-3.png") center no-repeat;
+}
+.thumb-4 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: url("/images/thumb-4.png") center no-repeat;
+}
+
+/* button */
+button {
+  position: relative;
+  margin-bottom: 50px;
+  padding: 8px;
+  border: 1px solid #000;
+  background-color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 100%;
+  color: #000;
+  cursor: pointer;
+  border-radius: 8px;
+}
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
